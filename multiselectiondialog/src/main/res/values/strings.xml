@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MultiSelectionDialog</string>
+    <string name="quan1">①</string>
+    <string name="quan2">②</string>
+    <string name="quan3">③</string>
+    <string name="quan4">④</string>
+    <string name="quan5">⑤</string>
+    <string name="quan6">⑥</string>
+    <string name="quan7">⑦</string>
+    <string name="quan8">⑧</string>
+    <string name="quan9">⑨</string>
+</resources>

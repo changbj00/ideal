@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:context=".activity.ItemActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#439df8"
+            android:orientation="horizontal"
+            android:id="@+id/relativeLayout">
+            <TextView
+                android:id="@+id/tv_headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:text="课程信息"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/doctor_iv_return"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_arrow_back" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/relativeLayout"/>
+        <TextView
+            android:id="@+id/doctor_tv_doctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/image"
+            android:text="title"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/doctor_tv_doctorName"
+            android:text="课程讲师："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/doctor_tv_sectionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:layout_below="@+id/doctor_tv_doctorName"
+            android:text="课程讲师："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/doctor_tv_sectionName"
+            android:text="课程地点："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/doctor_tv_sectionIntro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text2"
+            android:ellipsize="end"
+            android:layout_below="@+id/doctor_tv_sectionName"
+            android:text="课程地点："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/doctor_tv_sectionIntro3"
+            android:text="开始时间："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/doctor_tv_sectionIntro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/doctor_tv_sectionIntro3"
+            android:layout_toRightOf="@+id/text3"
+            android:ellipsize="end"
+            android:text="开始时间："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/text3"
+            android:text="结束时间："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/doctor_tv_sectionIntro4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/doctor_tv_sectionIntro1"
+            android:layout_toRightOf="@+id/text4"
+            android:ellipsize="end"
+            android:text="结束时间："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/text4"
+            android:text="课程详情："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/doctor_tv_sectionIntro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text4"
+            android:ellipsize="end"
+            android:layout_below="@+id/doctor_tv_sectionIntro4"
+            android:text="详情："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text1"
+            android:layout_below="@+id/doctor_tv_sectionIntro2"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:text="报名人数："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text6"
+            android:ellipsize="end"
+            android:layout_below="@+id/doctor_tv_sectionIntro2"
+            android:text="报名人数："
+            android:textColor="#666666"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/signin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text6"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn"
+            android:visibility="gone"
+            android:text="我要报名" />
+        <Button
+            android:id="@+id/signout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text6"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn"
+            android:visibility="gone"
+            android:text="取消报名" />
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="52dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:layout_toStartOf="@+id/getWhoSign_btn"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="编辑"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/getWhoSign_btn"
+            android:layout_width="52dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="考勤"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</ScrollView>

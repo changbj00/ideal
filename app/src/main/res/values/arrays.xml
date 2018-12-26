@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="letter">
+        <item>正常出勤</item>
+        <item>迟到</item>
+        <item>早退</item>
+        <item>未出勤</item>
+        <item>待确认</item>
+    </string-array>
+
+</resources>

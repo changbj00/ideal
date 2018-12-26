@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/multi_dialog_effect"
+    android:descendantFocusability="blocksDescendants"
+    android:duplicateParentState="false"
+    android:gravity="center_vertical"
+    android:layoutMode="clipBounds"
+    android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/id_treenode_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/standardContentText"
+        android:textSize="21dp" />
+
+</LinearLayout>

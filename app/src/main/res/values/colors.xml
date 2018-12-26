@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/black</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">@color/color_4372e4</color>
+    <!--head view-->
+    <color name="headViewBg">@android:color/white</color>
+    <color name="headViewTitle">@color/color_4A4A4A</color>
+
+    <color name="color_39383b">#39383b</color>
+    <color name="menu_title_color">#5d5c5c</color>
+
+    <color name="color_9fa7b4">#9fa7b4</color>
+    <color name="color_5c5c5c">#5c5c5c</color>
+    <color name="color_c3c2c2">#c3c2c2</color>
+    <color name="color_525252">#525252</color>
+    <color name="color_212121">#212121</color>
+    <color name="color_cececf">#cececf</color>
+    <color name="color_cecece">#cecece</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_fe7c7f">#fe7c7f</color>
+    <color name="color_efeff4">#efeff4</color>
+    <color name="color_8f91a4">#8f91a4</color>
+
+    <!--信贷源-->
+    <color name="color_text1_232323">#232323</color>
+    <color name="color_text2_ffffff">#ffffff</color>
+    <color name="color_text3_cdcdcd">#cdcdcd</color>
+    <color name="color_text4_8d8d8d">#8d8d8d</color>
+    <color name="color_text5_8d8d8d">#a3a3a3</color>
+
+    <color name="color_window_bg_f3f5f7">#f3f5f7</color>
+    <color name="color_divide_e4e4e4">#e4e4e4</color>
+    <color name="color_user_text_333333">#333333</color>
+    <color name="color_long_btn_17b7f7">#17b7f7</color>
+    <color name="color__header_divide_d0d0d0">#d0d0d0</color>
+    <color name="color__protocol_text_5ab3e3">#5ab3e3</color>
+
+    <color name="color_adadad">#adadad</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_bdbdbd">#bdbdbd</color>
+    <color name="color_439df8">#439df8</color>
+    <color name="color_6d85cd">#6d85cd</color>
+    <color name="color_4372e4">#4372e4</color>
+
+    <!--贷款平台-->
+    <!--渐变色start-->
+    <color name="color_gradient_start">#4372e4</color>
+    <color name="color_gradient_end">#6592f9</color>
+    <!--渐变色end-->
+
+    <color name="color_454545">#454545</color>
+    <color name="color_b2b0b0">#b2b0b0</color>
+    <color name="color_ececec">#ececec</color>
+    <color name="color_90d860">#90d860</color>
+    <color name="color_919ab4">#919ab4</color>
+    <color name="color_eff2f9">#f8f8f8</color>
+    <color name="color_35d795">#35d795</color>
+    <color name="color_b5bcd8">#b5bcd8</color>
+
+    <color name="color_1a6d85cd">#1a6d85cd</color>
+
+    <color name="default_text_color">#FF000000</color>
+
+    <color name="color_787878">#787878</color>
+    <color name="color_e6e5e5">#e6e5e5</color>
+
+    <color name="color_dialog_bg">#44000000</color>
+    <color name="color_4E000000">#4E000000</color>
+    <color name="color_DD000000">#DD000000</color>
+    <color name="color_4A4A4A">#4A4A4A</color>
+    <color name="color_334A4A4A">#334A4A4A</color>
+    <color name="color_804A4A4A">#804A4A4A</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_02affe">#02AFFE</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_03A9F4">#03A9F4</color>
+    <color name="color_7f4a4a4a">#7f4a4a4a</color>
+
+
+    <color name="color_757575">#757575</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_03a9f4">#03a9f4</color>
+
+    <color name="color_FD9B2A">#FD9B2A</color>
+    <color name="color_FE4D48">#FE4D48</color>
+
+    <color name="color_5184E6">#5184E6</color>
+    <color name="color_FF5F29">#FF5F29</color>
+    <color name="color_727272">#727272</color>
+    <color name="color_afafaf">#AFAFAF</color>
+    <color name="color_e1e1e1">#E1E1E1</color>
+    <color name="color_FF9C7A">#FF9C7A</color>
+    <color name="color_2d2d2d">#2d2d2d</color>
+    <color name="color_4d4d4d">#4d4d4d</color>
+    <color name="color_007AFF">#007AFF</color>
+    <color name="color_c6c6c6">#c6c6c6</color>
+    <color name="color_ffa400">#ffa400</color>
+    <color name="color_ff5f29">#ff5f29</color>
+
+
+</resources>
