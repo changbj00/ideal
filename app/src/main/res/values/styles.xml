@@ -21,9 +21,7 @@
         <item name="android:windowBackground">@drawable/bg_splash</item>
     </style>
 
-    <style name="Theme.AppCompat.Light.DarkActionBar"></style>
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
+    <style name="Theme.AppCompat.Light.DarkActionBar" />
+
     <style name="Theme">Theme</style>
 </resources>
